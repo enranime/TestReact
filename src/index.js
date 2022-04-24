@@ -5,11 +5,23 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+ReactDOM.render(
+
+  // <BrowserRouter>
+  // <Navbar/>
+  //    <Routes>
+  //      <Route path="exernotion/" element={<AddActivity/>} />
+  //      <Route path="exernotion/activity-history" element={<ActivityHistory/>}/>
+  //    </Routes>
+  //    <Footer/>
+  // </BrowserRouter>
+  <h1>helloworld</h1>
+,
+document.getElementById('root')
 );
+
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
