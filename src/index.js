@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-ReactDOM.render(
+root.render(
 
   // <BrowserRouter>
   // <Navbar/>
@@ -17,8 +17,6 @@ ReactDOM.render(
   //    <Footer/>
   // </BrowserRouter>
   <h1>helloworld</h1>
-,
-document.getElementById('root')
 );
 
 
